@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Coin
+  - Powerup_Bullet
+  - Water
+  - Player_feet
+  - Enemy
+  - Player_Bullet
+  - Enemy_Bullet
+  - Hit
+  - Checkpoint
+  - levelOneBoss
+  - Enemy_Fly
+  - Boss
+  - Boss_Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - Collectible
+  - Enemies
+  - Player_Bullet
+  - Enemy_Bullet
+  - Checkpoint
+  - Boss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 1063645815
+    locked: 0
+  - name: foreground
+    uniqueID: 699029911
+    locked: 0
+  - name: Player
+    uniqueID: 531757341
+    locked: 0
+  - name: UI
+    uniqueID: 683046605
+    locked: 0
