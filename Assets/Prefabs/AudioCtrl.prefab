@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8295715503133731249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8295715503133731246}
+  - component: {fileID: 8295715503133731247}
+  m_Layer: 0
+  m_Name: AudioCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8295715503133731246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8295715503133731249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8295715503133731247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8295715503133731249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f399faf9e7412140b46bfa11f391e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAudio:
+    playerJump: {fileID: 0}
+    coinPickup: {fileID: 8300000, guid: e8082f94d73ab1442a5bd68f02b849cf, type: 3}
+    fireBullets: {fileID: 8300000, guid: 58945c19e9eb4724388ef5db1c0145f9, type: 3}
+    enemyDead: {fileID: 8300000, guid: b47db6d69e443c445ba628ba903e6d0c, type: 3}
+    weapload: {fileID: 8300000, guid: 38f2aa379a0397543ad199fa50f87488, type: 3}
+    outOfAmmo: {fileID: 8300000, guid: 6825c728d32b1814c912cbf2b0ea0a8c, type: 3}
+    waterSplash: {fileID: 8300000, guid: 50d709f9ee8853747a8375528ca92842, type: 3}
+    playerDied: {fileID: 8300000, guid: 12a26e97b05cc964596cb819705cce5d, type: 3}
+  player: {fileID: 0}
+  soundOn: 1
+  BGMusic: {fileID: 0}
+  bgMusicOn: 1
+  btnSound: {fileID: 0}
+  btnMusic: {fileID: 0}
+  imgSoundOn: {fileID: 21300000, guid: 7dc4b2f6766019a479812cd8399ef231, type: 3}
+  imgSoundOff: {fileID: 21300000, guid: 95f775039bb99c94fa4409934a6c1038, type: 3}
+  imgMusicOn: {fileID: 21300000, guid: 71b82ec07f780cf40bfc05e604650f46, type: 3}
+  imgMusicOff: {fileID: 21300000, guid: b8d82cb063f49e44f9982c35403da3b4, type: 3}
