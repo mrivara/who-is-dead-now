@@ -412,8 +412,8 @@ public class PlayerCtrl : MonoBehaviour {
          Ghost.SetActive (true);    
          isGhost = true;
          anim.runtimeAnimatorController = anim2 as RuntimeAnimatorController;
-         rightBulletSpawnPos.position = new Vector3(rightBulletSpawnPos.position.x, -0.5f, rightBulletSpawnPos.position.z);
-         leftBulletSpawnPos.position = new Vector3(leftBulletSpawnPos.position.x, -0.5f, leftBulletSpawnPos.position.z);
+         rightBulletSpawnPos.position = new Vector3(rightBulletSpawnPos.position.x, (rightBulletSpawnPos.position.y - 0.3f), rightBulletSpawnPos.position.z);
+         leftBulletSpawnPos.position = new Vector3(leftBulletSpawnPos.position.x, (leftBulletSpawnPos.position.y - 0.3f), leftBulletSpawnPos.position.z);
       }
 
      else
@@ -424,8 +424,8 @@ public class PlayerCtrl : MonoBehaviour {
          Ghost.SetActive (false);   
          isGhost = false;
          anim.runtimeAnimatorController = anim1 as RuntimeAnimatorController;
-         rightBulletSpawnPos.position = new Vector3(rightBulletSpawnPos.position.x, -0.2f, rightBulletSpawnPos.position.z);
-         leftBulletSpawnPos.position = new Vector3(leftBulletSpawnPos.position.x, -0.2f, leftBulletSpawnPos.position.z);
+         rightBulletSpawnPos.position = new Vector3(rightBulletSpawnPos.position.x, (rightBulletSpawnPos.position.y + 0.3f), rightBulletSpawnPos.position.z);
+         leftBulletSpawnPos.position = new Vector3(leftBulletSpawnPos.position.x, (leftBulletSpawnPos.position.y + 0.3f), leftBulletSpawnPos.position.z);
 
             }
             }
