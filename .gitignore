@@ -3,6 +3,9 @@
 # =============== #
 Temp/
 Library/
+Logs/
+/[Ll]ogs/
+
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
