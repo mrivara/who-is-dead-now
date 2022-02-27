@@ -10,12 +10,20 @@ using UnityEngine;
 public class Mod2Ctrl : MonoBehaviour {
 
     public float Mod1Live;
+    SpriteRenderer sr;
 
-        void OnCollisionEnter2D(Collision2D other)
+    void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player_Bullet"))
         {
             Mod1Live -= 1;
+            sr.color = Color.red;
+            Invoke("RestoreColor", 0.1f);
         }
 
         if(Mod1Live ==0)
@@ -25,4 +33,10 @@ public class Mod2Ctrl : MonoBehaviour {
             GameCtrl.instance.UpdateKills();
         }
     }
+
+    void RestoreColor()
+    {
+        sr.color = Color.white;
+    }
+
 }

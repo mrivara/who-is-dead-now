@@ -222,7 +222,7 @@ public class PlayerCtrl : MonoBehaviour {
             EnemyMod2.stop();
             BossOneIA.stop();
             //JumpSpawner.stop();
-            JumpSpawner.StopCoroutine("SpawnJump");
+            //JumpSpawner.StopCoroutine("SpawnJump"); //comentar porque en este juego no hay este objeto
         }
         if (other.gameObject.tag == "Enemy_Fly" && !hurt)
         {
@@ -238,7 +238,7 @@ public class PlayerCtrl : MonoBehaviour {
             hurt = true;
             EnemyMod2.stop();
             BossOneIA.stop();
-            JumpSpawner.StopCoroutine("SpawnJump");
+            //JumpSpawner.StopCoroutine("SpawnJump"); //comentar porque en este juego no hay este objeto
 
         }
 #region Boss

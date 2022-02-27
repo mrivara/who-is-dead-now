@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59c4e97aa4033884d9f6a810d0de0d3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mod1Live: 1
+  Mod1Live: 2
 --- !u!58 &6193167733187204565
 CircleCollider2D:
   m_ObjectHideFlags: 0
